@@ -27,27 +27,29 @@ body {
 }
 
 .header {
-  width: 1210px;
+  width: 1205px;
   border-bottom: 2px solid grey;
   margin-bottom: 20px;
-  box-shadow: 0px 3px -2px grey;
-  padding-bottom: 30px;
+  box-shadow: 0px 3px -5px grey;
+  padding-bottom: 5px;
 }
 
 #library {
-  margin-left: 25px;
+  color: #384047;
+  margin-left: 35px;
+  padding-top: 25px;
 }
 
 .column1 {
   float:left;
   width:550px;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .col1box1 {
   background-color: white;
   height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 5px;
   position: relative;
   box-shadow: 0px 1px 2px #b2b2b2;
@@ -79,14 +81,14 @@ body {
 .column2 {
   float:right;
   width:550px;
-  margin-right: 30px;
+  margin-right: 35px;
 }
 
 
 .col2box1 {
   background-color: white;
   height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0px 1px 2px #b2b2b2;
 }
@@ -121,7 +123,7 @@ body {
 
 #one {
   float:left;
-  border: 1px solid grey;
+  border: 2px solid #dbdbdb;
   border-radius: 25px;
   margin: 5px;
   padding: 10px;
@@ -132,33 +134,57 @@ body {
 
 #two {
   float:left;
-  border: 1px solid grey;
+  border: 2px solid #dbdbdb;
   border-radius: 25px;
   margin: 5px;
   padding: 10px;
+  color: #a8a8a8;
 }
 
 #play {
   float: right;
-  border: 1px solid grey;
+  border: 2px solid #dbdbdb;
   margin: 5px;
   padding: 10px;
   border-radius: 100%;
+  color: #dbdbdb;
 }
 
 #star {
   float: right;
-  border: 1px solid grey;
+  border: 2px solid #dbdbdb;
   margin: 5px;
   padding: 10px;
   border-radius: 100%;
+  color: #dbdbdb;
 }
 
 .boxtext {
   margin: 5px;
   margin-bottom: 20px;
+  color: #a8a8a8;
 }
 
 .annotations {
   margin-left: 5px;
+}
+
+.java {
+  color: #2C9676;
+}
+
+.python {
+  color: #F092B0;
+}
+
+.wordpress {
+  color: #838CC7;
+}
+
+.course {
+  color: #a8a8a8;
+}
+
+h3 {
+  color: #384047;
 }
