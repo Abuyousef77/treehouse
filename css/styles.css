@@ -1,0 +1,164 @@
+body {
+  background-color: #EDEFF0;
+  font-family: arial;
+}
+
+#toolbar {
+  float:right;
+}
+
+#book {
+  float: left;
+  margin-top: 15px;
+}
+
+#book1 {
+  float: left;
+  margin-top: 12px;
+}
+
+#book2 {
+  float: left;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.wrap {
+  width: 1200px;
+}
+
+.header {
+  width: 1210px;
+  border-bottom: 2px solid grey;
+  margin-bottom: 20px;
+  box-shadow: 0px 3px -2px grey;
+  padding-bottom: 30px;
+}
+
+#library {
+  margin-left: 25px;
+}
+
+.column1 {
+  float:left;
+  width:550px;
+  margin-left: 30px;
+}
+
+.col1box1 {
+  background-color: white;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 2px #b2b2b2;
+}
+
+#col1box1heading {
+  background-color: #2C9676;
+  height: 60px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.col1box2 {
+  background-color: white;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px #b2b2b2;
+}
+
+#col1box2heading {
+  background-color: #838CC7;
+  height: 60px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.column2 {
+  float:right;
+  width:550px;
+  margin-right: 30px;
+}
+
+
+.col2box1 {
+  background-color: white;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px #b2b2b2;
+}
+
+#col2box1heading {
+  background-color: #F092B0;
+  height: 60px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.col2box2 {
+  background-color: white;
+  height: 300px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px #b2b2b2;
+}
+
+#col2box2heading {
+  background-color: #2C9676;
+  height: 60px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.time {
+  color: white;
+  float: right;
+  padding-right: 10px;
+}
+
+#one {
+  float:left;
+  border: 1px solid grey;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 10px;
+  /*position: absolute;
+  top: 300px;
+  left: 50px;*/
+}
+
+#two {
+  float:left;
+  border: 1px solid grey;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#play {
+  float: right;
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+#star {
+  float: right;
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.boxtext {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.annotations {
+  margin-left: 5px;
+}
